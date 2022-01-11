@@ -19,10 +19,12 @@ from votes import views
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('index/', views.index),
-    path('user/', views.user_info),
-    path('user/<int:id>', views.user_info_by_id)
+    path('polls/',views.view_all_polls),#모든 주제 목록
+    path('polls/create/', views.create_polls), #투표 주제 만들기
+    path('polls/<int:id>/', views.view_poll_by_id), #투표목록에서 id 결과 확인하는 화면
+    path('polls/<int:id>/vote', views.vote_poll), #투표를 하는것
+    path('polls/<int:id>/update/', views.update_poll),#업데이트 화면
+    path('polls/<int:id>/delete/', views.delete_poll) #주제 지우는 화면
     ]
     # path('polls/',views.view_all_polls),
     # path('polls/creat/', views.creat_polls),
