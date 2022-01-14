@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03aee0c3-9d4b-4a22-b5ae-8cbdd6f897b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/djangogo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangogo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangogo/votes/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangogo/votes/templates/pages/create_poll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangogo/votes/templates/pages/view_poll_by_id.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangogo/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/djangogo/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangogo/djangogo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangogo/djangogo/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangogo/djangogo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangogo/djangogo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangogo/votes/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangogo/votes/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangogo/votes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangogo/votes/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangogo/votes/templates/pages/view_all_polls.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangogo/votes/templates/pages/view_all_polls.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangogo/votes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangogo/votes/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -54,9 +60,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1641833469045" />
-    <state x="460" y="143" width="616" height="538" key="find.popup" timestamp="1641823081804">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="-1252" y="88" width="773" height="807" key="find.popup" timestamp="1642155316246">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="460" y="143" width="616" height="538" key="find.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1641823081804" />
+    <state x="-1252" y="88" width="773" height="807" key="find.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1642155316246" />
+    <state x="534" y="70" width="618" height="538" key="find.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1642133000340" />
   </component>
 </project>
