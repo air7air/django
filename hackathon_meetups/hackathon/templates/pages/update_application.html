@@ -1,0 +1,19 @@
+{% extends "common.html" %}
+
+{% block title %}참가 정보 수정{% endblock %}
+
+{% block content %}
+<section>
+    <h1>참가 정보 등록/수정</h1>
+    <!--파일 업로드 할때 enctype="multipart/form-data" 꼭 넣어야 정상으로 작동-->
+    <form action="{% url 'update_application' %}" enctype="multipart/form-data" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">등록</button>
+    </form>
+    <!--참가취소 버튼-->
+    {% if cancelable %}
+        <a href="{% url 'cancel_application' %}"><button>참가 취소</button></a>
+    {% endif %}
+</section>
+{% endblock %}

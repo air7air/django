@@ -1,0 +1,25 @@
+{% extends "common.html" %}
+
+{% block title %}참가자 보기{% endblock %}
+
+{% block content %}
+<section>
+    <h1>참가자 목록</h1>
+    <div class="row">
+
+        {% for application in applications %}
+        <div class="col-sm-3 mb-2 mt-2">
+            <div class="card">
+                <img src="/media/{{ application.profile_image }}" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">{{ application.nickname }}</h5>
+                    <p>역할: {{ application.job }}</p>
+                    <p class="card-text">{{ application.introduction }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+</section>
+{% endblock %}
